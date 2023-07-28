@@ -26,11 +26,7 @@ public class Cat {
   }
 
   public String getAge() {
-    if (isFemale) {
-      return checkEscalationLevel();
-    } else {
-      return String.valueOf(age);
-    }
+    return checkEscalationLevel();
   }
 
   private String checkEscalationLevel() {
@@ -45,7 +41,7 @@ public class Cat {
       case 3:
         return "Talk to the hand!";
       default:
-        return "Yamete Kudasai!!";
+        return "1#!?&&%";
     }
 
   }
