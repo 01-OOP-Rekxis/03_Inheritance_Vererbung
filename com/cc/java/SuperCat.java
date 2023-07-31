@@ -2,9 +2,9 @@ package com.cc.java;
 
 public class SuperCat {
 
-    String firstName;
-    String furColor;
-    int age;
+    private String firstName;
+    private String furColor;
+    protected int age;
 
     public SuperCat(String firstName, String furColor, int age) {
         this.firstName = firstName;
